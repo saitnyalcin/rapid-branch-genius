@@ -1,72 +1,30 @@
-# rapid-branch-genius README
+# Rapid Branch Genius - VS Code Extension
 
-This is the README for your extension "rapid-branch-genius". After writing up a brief description, we recommend including the following sections.
+## Description
 
-## Features
+The **Rapid Branch Genius** extension for Visual Studio Code streamlines the process of creating and managing Git branches, making branch creation a breeze. With a few simple commands, this extension allows developers to quickly generate new branches with meaningful names and proper categorization.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Key Features
 
-For example if there is an image subfolder under your extension project workspace:
+1. **Interactive Branch Creation:** The extension prompts the user to input a branch name and choose a branch type (e.g., main, release, develop, feature, bug, hotfix) through user-friendly input boxes and quick pick menus.
 
-\!\[feature X\]\(images/feature-x.png\)
+2. **Git Integration:** Leveraging the Git extension for VS Code, the Rapid Branch Genius extension seamlessly interacts with the underlying Git repository. It creates and checks out the new branch, ensuring a smooth workflow.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+3. **Informative Messages:** The extension provides informative messages during the branch creation process, keeping the user informed about the actions being taken. This helps enhance transparency and reduces ambiguity.
 
-## Requirements
+4. **Error Handling:** The extension includes error handling to gracefully manage situations where no Git repository is found or if the Git extension is not installed. Clear error messages guide users on how to resolve these issues.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+5. **Donation Option:** As a bonus feature, the extension offers a donation option to support the project. Users receive a friendly message encouraging them to consider making a donation, with a convenient "Donate Now" button that opens the donation link in the default web browser.
 
-## Extension Settings
+## Usage
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Execute the "Generate Branch" command to initiate the branch creation process.
+2. Input a descriptive branch name when prompted.
+3. Select the appropriate branch type from the quick pick menu.
+4. The extension creates and checks out the new branch, providing informative messages along the way.
 
-For example:
+## Support and Contribution
 
-This extension contributes the following settings:
+Visit the [GitHub repository](https://github.com/saitnyalcin) for support, issue reporting, and contributions. If you find the extension helpful, consider supporting the project by making a donation.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-# rapid-branch-genius
+**Note:** Ensure that Git is installed and the Git extension is enabled in VS Code for optimal functionality.
