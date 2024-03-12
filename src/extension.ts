@@ -74,7 +74,7 @@ export function activate(context: vscode.ExtensionContext) {
     .then((choice) => {
       if (choice === "Donate Now") {
         // Open the donation link in the default web browser
-        vscode.env.openExternal(vscode.Uri.parse("https://www.buymeacoffee.com/saitnyalcin"));
+        vscode.env.openExternal(vscode.Uri.parse("#"));
       }
     });
 }
